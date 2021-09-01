@@ -65,8 +65,7 @@ p {
 }
 
 .responsive-table {
-    overflow-y: auto;
-    overflow-x: auto;
+    overflow: auto;
 }
 
 table {
@@ -308,7 +307,7 @@ body .full-width {
     background: none;
     color: var(--white-color);
     padding: 1.5rem 2rem;
-    font-size: 3rem;
+    font-size: 2rem;
     cursor: pointer;
     transition: all 300ms ease-in-out;
 }
@@ -398,7 +397,7 @@ body .full-width {
         position: fixed;
         z-index: 2;
         top: 2rem;
-        left: 2rem;
+        right: 2rem;
         background: var(--primary-color);
         color: var(--white-color);
         font-size: 3rem;
